@@ -9,3 +9,4 @@ scikit-learn==1.6.1
 pandas==2.0.3
 python-multipart==0.0.6
 sniffio==1.3.1 --hash=sha256:0756e598565e9d8283d9d391c041bb41a7b6b59d25a17b518917c63dc4313d11
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl --hash=sha256:6215d71a3212690e9aec49408a27e3fe6ad7cd6c715476e93d70dc784041e93e
