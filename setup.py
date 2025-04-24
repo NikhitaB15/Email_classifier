@@ -1,0 +1,9 @@
+from setuptools import setup
+
+setup(
+    name="your-app",
+    install_requires=[
+        "spacy==3.7.4",
+        "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl"
+    ],
+)
