@@ -1,6 +1,11 @@
-#!/usr/bin/env bash
-# Ensure Python 3.10 is active (Render respects runtime.txt, but this adds redundancy)
-python --version
+#!/bin/bash
+set -e
+
+# Upgrade pip without using hashes
 pip install --upgrade pip
-pip install -r requirements.txt --no-cache-dir --ignore-installed
+
+# Install requirements without hash checking
+pip install --no-cache-dir -r requirements.txt
+
+# Download spaCy model
 python -m spacy download en_core_web_sm
